@@ -87,7 +87,8 @@ public class CustomSeparatorComposedKeyCategory {
                              .endDynamicObject()
                          .build();
         }
-        return new DefaultMetaData(model);
+        MetaData metaData = new DefaultMetaData(model);
+        return metaData;
     }
 }
 ----
